@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body::selection{
+background-color: red;
+color: black    ;
+}
+
+.hero {
+
+    /* height: 120vh; */
+    /* background-color: black;  */
+    font-family: "Rubik", sans-serif;
+    background-image: url(background1-img.jpg);
+background-size: cover;
+}
+
+.main-nav {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red;/ */
+    padding: b 50px;
+    background-color: black;
+    position: relative;
+    padding: 50px;
+
+}
+
+.main-nav ul {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.main-nav ul li {
+    width: 100px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+transition: .3s linear;
+}
+.main-nav ul li:hover {
+transition: .3s linear;
+border-bottom: 5px solid red;
+}
+.main-nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.backgg {
+    width: 250px;
+    top: 0;
+    height: 165px ;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+position: absolute;
+/* right: 50%; */
+left: 43%;      
+/* transform: translateY(-50%); */
+}
+.gg{
+    width: 70px;
+    position: absolute;
+    z-index: 1;
+    left: 49%;
+    top: 40%;
+}
+.fa-magnifying-glass{
+    color: white;
+    font-size: 25px;
+    transition: .3s linear;
+}
+.fa-magnifying-glass:hover{
+    transition: .3s linear;
+color: red;
+}
+.edgtf-side-area-opener{
+    transition: .2s ease;
+    width: 50px;
+   
+}
+.edgtf-side-area-opener:hover{
+    transition: .2s ease;
+    transform: rotate(-90deg);
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.main h1{
+    font-size: 80px !important;
+}
+.main button{
+clip-path: polygon(0 0, 100% 0, 90% 92%, 10% 95%);
+    padding: 20px 85px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+.dd{
+    height: 110px;
+    
+}
+.dd:hover img{
+transform: translateY(0%);
+transition: .3s ease
+;
+}
+.dd img{
+transform: translateY(-100%);
+    height:110px ;
+transition: .3s ease;
+    
+}
+.pos-2{
+    bottom: -100px;
+    background-color: rgba(0, 0, 0, 0.805);
+    color: white;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 400px;
+    gap: 20px !important;
+    transition: .3s ease;
+}
+.btn-2{
+    padding: 1px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    transition: .3s linear;
+
+}
+.btn-2:hover{
+    transition: .3s linear;
+    color: red;
+}
+.sec-card{
+    overflow: hidden;
+}   
+
+.sec-card:hover .pos-2{
+    bottom: 0;
+    transition: .3s ease;
+}
+
+.con-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+}
+
+.heding{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.heding svg{
+    width: 150px;
+}
+.cf-3{
+    height: 200vh;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+    background-color: black;
+    color: white;
+}
+.btn-4{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+.btn-4 button{
+  width: 150px;
+  height: 55px;
+  border: none;
+clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);  
+  margin-left: -15px;
+transition: .3s linear;
+color: white;
+background-color: black;
+}
+.btn-4 button:hover{
+transition: .3s linear;
+background-color: red;
+color: white;
+}
+.img3{
+position: relative;
+}
+.pos-3{
+    width: 400px;
+    height:150px ;
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    bottom:10px;
+    background-color: rgba(0, 0, 0, 0.714);
+}
+.pos-3 h1{
+    font-size: 25px ;
+    font-weight: bolder;
+}
+.btn-3{
+    width: 400px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.btn-3 button{
+    padding: 10px 30px;
+    border: none;
+    transition: .3s linear;
+
+}
+.b-2{
+    background-color: red;
+color: white;
+}
+.btn-3 button:hover{
+    transition: .3s linear;
+    background-color: red;
+    color: white;
+}
+.card-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pos-4{
+    width: 200px;
+    height: 60px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.572);
+ 
+}
+.gg4 img{
+transition: .3s ease;
+
+}
+.gg4 img:hover{
+transition: .3s ease;
+    scale: 1.1;
+}
+.text4{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white    ;
+}
+.text4 button{
+    padding: 18px 45px ;
+    background-color: red;
+    color: black;
+    transition: .3s linear;
+    border: none;
+}
+.text4 button:hover{
+    transition: .3s linear;
+box-shadow: 0 0 20px red;
+
+
+}
+.con-5{
+    background-image: url(imgi_133_h1-background-img-1.jpg);
+}
+.con-6{
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.pic-1 img{
+    width: 100px;
+    /* border: 2px solid red; */
+}
+.pic-2 img{
+    width: 50px;
+}
+.pic-3 img{
+    width: 100px;
+}
+.pic-1 h1,.pic-3 h1{
+    font-size: 20px;
+}
+.pic-1,.pic-3  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pic-2{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* border: 2px solid red; */
+    gap: 10px;
+    /* border: 1px solid white; */
+    /* background-color: rgb(0, 0, 0); */
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.gg5{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+}
+.t-4{
+    font-size: 9px;
+
+    padding: 2px 22px;
+    background-color: rgb(49, 47, 47);
+}
+.text2{
+display: flex;
+align-items: start;
+justify-content: center;
+flex-direction: column;
+}
+.text2 h1{                          
+    font-size: 23px;
+}
+.gg6{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-3{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.main-con{
+    /* border: 2px solid red; */
+    transition: .3s linear;
+    background-color: rgba(255, 255, 255, 0.164);
+   
+}
+.main-con:hover{
+    transition: .3s linear;
+    background: #000000;
+background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(16, 3, 3, 1) 0%, rgba(119, 21, 21, 1) 36%, rgba(252, 43, 43, 0.408) 50%, rgba(65, 11, 11, 1) 77%, rgba(0, 0, 0, 1) 100%);
+}
+.con-7{
+    height: 550px;
+    background-image: url(imgi_123_h1-parallax-2.jpg);
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.con-8{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+    gap: 20px;
+}
+.cl-6{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.inp6{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.inp6 input{
+width: 650px;
+height: 70px;
+background-color: rgba(255, 255, 255, 0.097);
+color: white;
+border: none;
+}
+.inp6 textarea{
+    width: 650px;
+    height: 200px;
+  background-color: rgba(255, 255, 255, 0.097);
+    color: white;
+border: none;
+
+}
+.inp6 button{
+    width: 650px;
+    height: 60px;
+    color: white;
+    background-color: red;
+    border: none;
+    transition: .3s linear;
+}
+.inp6 button:hover{
+    transition: .3s linear;
+box-shadow: 0 0 20px red;
+}
+.txt-7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.txt-7 h1{
+    font-size: 70px;
+    color: white;
+}
+.txt-7 h5{
+    font-size: 20px;
+    color: white;
+}
+.last3{
+    transition: .3s linear;
+}
+.last3:hover{
+    transition: .3s linear;
+    scale: 1.1 ;
+}
+.con-9{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 150px;
+}
+.ft-9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.last9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-9{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    /* gap: 10px;    */
+    flex-direction: column;
+    text-align: center;
+    /* border: 2px solid red; */
+    
+}
+.text-9 h1{
+    font-size: 25px;
+}
+.text-9 h5{
+    font-size: 15px;
+}
+.text-9 h3{
+    bottom: 100px;
+}
+.con-10{
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+}
+.ft-10{
+    width: 100%;
+    height: 120px;
+    background-image: url(image\ copy\ 24.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ft-10 ul{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    padding: 70px;
+}
+.ft-10v ul li{
+    list-style: none;
+}
+.ft-10 ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.sec-10{
+    width: 100%;
+    height:120px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-10 input{
+    width: 550px;
+    height: 30px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.fa-envelope{
+    font-size: 20px;
+    color: white;
+}
+.third-10{
+    width: 100%;
+    height: 120px;
+    background-image: url(image\ copy\ 24.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px   ;
+    transition: .3s linear;
+}
+.third-10 i:hover{
+    transition: .3s linear;
+color: red;
+}
